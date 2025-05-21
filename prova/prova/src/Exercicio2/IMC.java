@@ -33,7 +33,7 @@ public class IMC {
                 cond = "obesidade morbida";
             }
         }
-        cond = "\ncalculo: " + IMC;
+        cond += "\ncalculo: " + IMC;
         return cond;
     }
 }
